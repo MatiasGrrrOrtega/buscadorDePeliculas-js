@@ -31,6 +31,7 @@ function displayMovies(movies) {
     
         let title = document.createElement('h2');
         title.textContent = movie.title;
+        
         let releaseDate = document.createElement('p');
         releaseDate.textContent = 'La fecha de lanzamiento fue: ' + movie.release_date;
         
